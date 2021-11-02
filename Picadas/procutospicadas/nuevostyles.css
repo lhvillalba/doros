@@ -1,0 +1,828 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* COMIENZO A ESTILAR HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(111, 29, 27, 1);
+    opacity: 2.9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 5;
+
+}
+
+.logo {
+    width: 25%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.navlist {
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+
+
+}
+
+.navlist ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+.navlist ul li {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.navlist ul li a:hover {
+    border-bottom: solid white 1px;
+    transition: 2s;
+
+
+}
+
+.menuhamburguesa {
+    display: none;
+}
+
+/* TERMINÉ DE ESTILAR EL HEADER */
+
+
+
+
+/* COMIENZO A ESTILAR EL BODY */
+.vermas {
+    background-image: url(/imagenes/Picada_cordobesa.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0%;
+
+
+}
+
+.vermas .texto {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom: -20%;
+
+}
+
+.contenidogral1 {
+    width: 100%;
+    height: 300px;
+}
+
+.contenidogral1 {
+
+    background-image: url(/imagenes/Picada_cordobesa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.textopresentacion {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    padding: 8px 8px;
+    font-weight: 700;
+
+}
+
+.boton {
+    background-color: rgb(163, 58, 98);
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    color: black;
+    font-weight: 900;
+
+}
+
+h1 {
+    display: none;
+}
+
+.contenidogral1 br {
+    background-color: darksalmon;
+}
+
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(53, 15, 2);
+}
+
+.tarjeta1 {
+    background-color: rgb(153, 109, 109);
+    padding: 8px 8px;
+    border: black solid 2px;
+    width: 310px;
+    height: 500px;
+}
+
+.tarjeta2 {
+    background-color: rgb(153, 109, 109);
+    padding: 8px 8px;
+    border: black solid 2px;
+    width: 310px;
+    height: 500px;
+}
+
+.tarjeta3 {
+    background-color: rgb(153, 109, 109);
+    padding: 8px 8px;
+    border: black solid 2px;
+    width: 300px;
+    height: 500px;
+}
+
+.presentacion img {
+    width: 200px;
+    height: 200px;
+}
+
+.presentacion {
+    padding: 30px 12px;
+}
+
+.contenidogral1 {
+    background-image: url(/imagenes/Picada_cordobesa.jpg);
+    width: 100%;
+}
+
+/* TERMINO DE ESTILAR EL  */
+
+/* comienzo a estilar footer */
+
+
+.footer-all {
+    background-color: rgb(125, 125, 131);
+    width: 100%;
+}
+
+.footerarriba {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(31, 24, 24);
+    height: 300px;
+
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px 8px;
+    justify-content: space-between;
+
+}
+
+.formulario {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+.formulario h3 {
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+
+.informacionformulario {
+    width: 600px;
+
+}
+
+.informacionformulario label input {
+    width: 500px;
+    box-shadow: 20px;
+}
+
+.redessociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    white-space: pre-line;
+
+
+
+
+
+}
+
+.redessociales img {
+    width: 30px;
+    border-radius: 50px;
+
+}
+
+.redessociales label {
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+
+
+
+.footerabajo {
+    background-color: rgb(44, 43, 43);
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright {
+    font-weight: 500;
+    color: black;
+}
+
+.informacion {
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.informacion a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.facebook {
+    justify-content: space-around;
+}
+
+.instagramtexto label :hover {
+    color: white;
+}
+
+.instagramtexto {
+    text-decoration: none;
+
+}
+
+.facebooktexto {
+    text-decoration: none;
+}
+
+.whatsapptexto {
+    text-decoration: none;
+}
+
+#webapp_cover {
+    display: none;
+}
+
+/* terminé de estilar footer */
+
+
+
+/* RESPONSIVE   */
+
+@media screen and (max-width: 1100px) {
+
+    .logo {
+        width: 80px;
+
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .navlist ul {
+        font-size: 19px;
+    }
+
+    .logo {
+        width: 120px
+    }
+
+    header {
+        height: 150px;
+    }
+
+    .formulario {
+        width: 540px;
+    }
+
+    .menuhamburguesa {
+        position: absolute;
+        display: block;
+        font-size: 70px;
+        bottom: 16%;
+        color: white;
+        margin-right: 250px;
+        margin-top: -40px;
+    }
+
+
+
+
+    .navlist {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+
+    .navlist ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 90px 140px;
+        margin-left: -460x;
+        margin-bottom: -325px;
+        display: none;
+        z-index: 5;
+
+    }
+
+
+    .navlist:hover .navlist ul {
+        display: block;
+    }
+
+    .presentacion {
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    .tarjeta1 {
+        width: 450px;
+        height: 680px;
+    }
+
+    .tarjeta2 {
+        width: 450px;
+        height: 680px;
+    }
+
+    .tarjeta3 {
+        width: 450px;
+        height: 680px;
+    }
+
+    .presentacion img {
+        width: 250px;
+        height: 260px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .vermas {
+        width: 780px;
+        height: 300px;
+    }
+
+    header {
+        width: 780px;
+    }
+
+    body {
+        width: 780px;
+    }
+
+    .formulario {
+        width: 450px;
+        height: 150px;
+    }
+
+    .presentacion {
+        flex-direction: column;
+        font-size: 20px;
+
+    }
+
+    .tarjeta1 {
+        width: 380px;
+        height: 610px;
+    }
+
+    .tarjeta2 {
+        width: 380px;
+        height: 610px;
+    }
+
+    .tarjeta3 {
+        width: 380px;
+        height: 610px;
+    }
+
+    .informacionformulario label input {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        width: 1000px;
+        display: flex;
+        justify-content: space-evenly;
+        height: 200px;
+        justify-content: space-between;
+    }
+
+
+
+    body {
+        width: 1000px;
+    }
+
+    .vermas {
+        width: 1000px;
+        background-color: none;
+    }
+
+    .logo {
+        width: 100px;
+    }
+
+    .footer2 {
+        font-size: 25px;
+    }
+
+    .presentacion {
+        font-size: 40px;
+    }
+
+    .presentacion img {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .redessociales {
+        font-size: 30px;
+    }
+
+    .tarjeta1 {
+        width: 450px;
+        height: 850px;
+    }
+
+    .tarjeta2 {
+        width: 450px;
+        height: 850px;
+    }
+
+
+
+    .tarjeta3 {
+        width: 450px;
+        height: 900px;
+    }
+
+    p {
+        font-size: 27px;
+    }
+
+    .textopresentacion {
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boton {
+        font-size: 25px;
+        width: 190px;
+        height: 60px;
+    }
+
+
+    .footerarriba {
+        flex-direction: column;
+        height: 620px;
+    }
+
+    .formulario {
+        width: 700px;
+        height: 300px;
+
+    }
+
+    .formulario h3 {
+        font-size: 30px;
+    }
+
+    .redessociales {
+        display: flex;
+        flex-direction: row;
+        font-size: 20px;
+        width: 580px;
+        height: 150px;
+        padding: 50px 12px;
+        width: 660px;
+        height: 280px;
+        padding: 50px 12px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 23px;
+
+    }
+
+    .informacionformulario label input {
+        height: 30px;
+        width: 500px;
+        font-size: 25px;
+    }
+
+    .boton {
+        font-size: 25px;
+        width: 190px;
+        height: 60px;
+    }
+
+    .logo {
+        width: 200px;
+    }
+
+    .boton_enviar {
+        font-size: 30px;
+    }
+
+    #webapp_cover {
+        display: flex;
+        justify-content: end;
+    }
+
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    *:focus {
+        outline: none;
+    }
+
+    html,
+    body {
+        height: 100%;
+    }
+
+    body {
+        margin: 0;
+        background-color: #0e3577;
+    }
+
+    #webapp_cover {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        left: 0;
+        width: 39px;
+        margin: 0 auto;
+        transform: translateY(-50%) scale(2);
+    }
+
+    #menu_button {
+        width: 39px;
+        overflow: hidden;
+    }
+
+    #menu_checkbox {
+        display: none;
+    }
+
+    #menu_label {
+        position: relative;
+        display: block;
+        height: 29px;
+        cursor: pointer;
+    }
+
+    #menu_label:before,
+    #menu_label:after,
+    #menu_text_bar {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 5px;
+        background-color: #fff;
+    }
+
+    #menu_label:before,
+    #menu_label:after {
+        content: '';
+        transition: 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55) left;
+    }
+
+    #menu_label:before {
+        top: 0;
+    }
+
+    #menu_label:after {
+        top: 12px;
+    }
+
+    #menu_text_bar {
+        top: 24px;
+    }
+
+    #menu_text_bar:before {
+        content: 'MENU';
+        position: absolute;
+        top: 5px;
+        right: 0;
+        left: 0;
+        color: #fff;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+
+    #menu_checkbox:checked+#menu_label:before {
+        left: -39px;
+    }
+
+    #menu_checkbox:checked+#menu_label:after {
+        left: 39px;
+    }
+
+    #menu_checkbox:checked+#menu_label #menu_text_bar:before {
+        animation: moveUpThenDown 0.8s ease 0.2s forwards, shakeWhileMovingUp 0.8s ease 0.2s forwards, shakeWhileMovingDown 0.2s ease 0.8s forwards;
+    }
+
+    @keyframes moveUpThenDown {
+        0% {
+            top: 0;
+        }
+
+        50% {
+            top: -27px;
+        }
+
+        100% {
+            top: -14px;
+        }
+    }
+
+    @keyframes shakeWhileMovingUp {
+        0% {
+            transform: rotateZ(0);
+        }
+
+        25% {
+            transform: rotateZ(-10deg);
+        }
+
+        50% {
+            transform: rotateZ(0deg);
+        }
+
+        75% {
+            transform: rotateZ(10deg);
+        }
+
+        100% {
+            transform: rotateZ(0);
+        }
+    }
+
+    @keyframes shakeWhileMovingDown {
+        0% {
+            transform: rotateZ(0);
+        }
+
+        80% {
+            transform: rotateZ(3deg);
+        }
+
+        90% {
+            transform: rotateZ(-3deg);
+        }
+
+        100% {
+            transform: rotateZ(0);
+        }
+    }
+
+    /* .navlist ul {
+        flex-direction: column;
+        display: none;
+    } */
+
+    /* #webapp_cover:checked~.navlist ul {
+        display: flex;
+        flex-direction: column;
+    } */
+
+}
+
+@media screen and (max-width: 411px) {
+
+    .redessociales {
+        font-size: 28px;
+        width: 700px;
+
+    }
+
+    .informacionformulario label input {
+        height: 50px;
+        font-size: 30px;
+    }
+
+    .boton_enviar {
+        font-size: 30px;
+    }
+
+    .footer2 {
+        font-size: 25px;
+        height: 200px;
+        flex-direction: column
+    }
+
+    .presentacion img {
+        width: 340px;
+        height: 340px
+    }
+
+    h3 {
+        font-size: 50px;
+    }
+    .informacion {
+        font-size: 30px
+    }
+
+    .tarjeta1,
+    .tarjeta2,
+    .tarjeta3 {
+        width: 600px;
+        height: 1100px;
+    }
+
+    .presentacion p {
+        font-size: 45px;
+    }
+
+    .footerarriba {
+        height: 750px;
+    }
+
+    .redessociales {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 375px) {}

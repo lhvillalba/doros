@@ -1,0 +1,327 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* COMIENZO A ESTILAR HEADER */
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgba(111, 29, 27, 1);
+    opacity: 2.9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 5;
+
+}
+
+.logo {
+    width: 20%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.navlist {
+    font-size: 23px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+
+
+}
+
+.navlist ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+
+}
+
+.navlist ul li {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
+.navlist ul li a:hover {
+    border-bottom: solid white 1px;
+    transition: 2s;
+
+
+}
+
+/* TERMINÉ DE ESTILAR EL HEADER */
+
+
+
+
+/* COMIENZO A ESTILAR EL BODY */
+.vermas {
+    background-image: url(/imagenes/Picada_cordobesa.jpg);
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: hard-light;
+    bottom: 0%;
+
+}
+
+.vermas .texto {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    bottom: -20%;
+
+}
+
+.contenidogral1 {
+    width: 100%;
+    height: 300px;
+}
+
+.contenidogral1 {
+
+    background-image: url(/imagenes/Picada_cordobesa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.textopresentacion {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darksalmon;
+    padding: 8px 8px;
+    font-weight: 700;
+
+}
+
+.boton {
+    background-color: rgb(163, 58, 98);
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    color: black;
+    font-weight: 900;
+}
+
+h1 {
+    display: none;
+}
+
+.contenidogral1 br {
+    background-color: darksalmon;
+}
+
+.presentacion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    background-color: rgb(53, 15, 2);
+}
+
+.tarjeta1 {
+    background-color: rgb(153, 109, 109);
+    padding: 8px 8px;
+    border: black solid 2px;
+    width: 300px;
+    height: 400px;
+}
+
+.tarjeta2 {
+    background-color: rgb(153, 109, 109);
+    padding: 8px 8px;
+    border: black solid 2px;
+    width: 300px;
+    height: 400px;
+}
+
+.tarjeta3 {
+    background-color: rgb(153, 109, 109);
+    padding: 8px 8px;
+    border: black solid 2px;
+    width: 300px;
+    height: 400px;
+}
+
+.presentacion img {
+    width: 200px;
+    height: 200px;
+}
+
+.presentacion {
+    padding: 30px 12px;
+}
+
+.contenidogral1 {
+    background-image: url(/imagenes/Picada_cordobesa.jpg);
+    width: 100%;
+}
+
+/* TERMINO DE ESTILAR EL  */
+
+/* comienzo a estilar footer */
+
+
+.footer-all {
+    background-color: rgb(125, 125, 131);
+    width: 100%;
+}
+
+.footerarriba {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(31, 24, 24);
+
+}
+
+.footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8px 8px;
+    justify-content: space-between;
+
+}
+
+.formulario {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 700px;
+    height: 200px;
+}
+
+.formulario h3 {
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+
+.informacionformulario {
+    width: 600px;
+
+}
+
+.informacionformulario label input {
+    width: 500px;
+    box-shadow: 20px;
+}
+
+.redessociales {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+
+
+}
+
+.redessociales img {
+    width: 30px;
+    border-radius: 50px;
+
+}
+
+.redessociales label {
+    color: white;
+    font-weight: 800;
+}
+
+
+
+
+.footerabajo {
+    background-color: rgb(44, 43, 43);
+}
+
+.footer2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copyright {
+    font-weight: 500;
+    color: black;
+}
+
+.informacion {
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+}
+
+.informacion a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.facebook {
+    justify-content: space-around;
+}
+
+.instagramtexto label :hover {
+    color: white;
+}
+
+.instagramtexto {
+    text-decoration: none;
+
+}
+
+.facebooktexto {
+    text-decoration: none;
+}
+
+.whatsapptexto {
+    text-decoration: none;
+}
+
+@import url ('https://fonts.googleapis.com/css2? family = Koh + Santepheap: wght @ 300; 400; 700; 900 & display = swap')
+/* terminé de estilar footer */
+
+
+
+/* RESPONSIVE   */
+
+@media 
