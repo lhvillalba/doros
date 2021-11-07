@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* comienza el header */
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+.nav-item:hover {
+    transform: 0.7;
+    background-color: #b69090;
+    border-bottom: solid black 2px;
+
+}
+
+.nav-item:focus-visible {
+    transition: 0.8s;
+
+
+}
+
+.offcanvas-body {
+    background-color: darkgrey;
+
+}
+
+.offcanvas {
+    background-color: #7e7a7a;
+
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-toggler {
+    margin-right: 60px;
+}
+
+/* /////////////////////////////////////////////////////////////////////// */
+
+html {
+    height: 115%;
+}
+
+body {
+    font-family: arial;
+    background-image: url(/imagenes/quesos-mas-sanos-portada-1626194653.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
+
+.form-register {
+    width: 400px;
+    height: 520px;
+    background-color: rgba(255, 255, 255, 0.22);
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 30px 30px;
+    border-top: 4px solid #af7a83;
+    color: rgb(65, 65, 65);
+}
+
+.form-register h1 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #af7a83;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background-color: #3f3e3e;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.botons {
+    width: 100%;
+    height: 40px;
+    background: #af7a83;
+    border: none;
+    color: rgb(65, 65, 65);
+    margin-bottom: 16px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+    font-weight: 700;
+
+}
+
+.form-register a {
+    color: rgb(65, 65, 65);
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+.form-register a:hover {
+    text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1100px) {}
+
+@media screen and (max-width: 992px) {}
+
+@media screen and (max-width: 710px) {}
+
+@media screen and (max-width: 650px) {}
+
+@media screen and (max-width: 550px) {
+    .navbar-toggler {
+        margin-right: 20px;
+    
+    }
+    
+}
+
+@media screen and (max-width: 411px) {
+
+    .form-register {
+        width: 300px;
+        height: 600px;
+        padding: 60px 30px;
+    }
+
+    .form-register h1 {
+        font-size: 27px;
+    }
+    .controls {
+        font-size: 15px;
+    }
+    .botons {
+        font-size: 17px;
+    }
+    .form-register a {
+        font-size: 15px;
+    }
+    html {
+        height: 140%;
+    }
+
+    @media screen and (max-width: 375px) {
+        
+    }
+}
