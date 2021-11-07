@@ -141,12 +141,16 @@ body {
 
 @media screen and (max-width: 710px) {}
 
-@media screen and (max-width: 650px) {}
+@media screen and (max-width: 650px) {
+    .form-login {
+        width: 400px;
+    }
+}
 
 @media screen and (max-width: 550px) {
     .form-login {
         padding: 55px 30px;
-        width: 410px;
+        width: 350px;
         height: 650px;
     }
 
